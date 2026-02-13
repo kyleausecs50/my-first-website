@@ -6,11 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My First Website</title>
   </head>
-```html
-<body style="font-family: Arial, sans-serif; background: #f0f7ff; color: #1f2937; text-align: center; padding-top: 60px;">
-  <h1>Welcome to Kyle's First Website 🚀</h1>
-  <p style="font-size: 20px; color: #2563eb;">I changed the text and colors myself.</p>
-</body>
-```
+  <body style="margin: 0; font-family: Arial, sans-serif; background: #f0f7ff; color: #1f2937;">
+    <header
+      style="
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #0b2a6f;
+        color: white;
+        padding: 14px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      "
+    >
+      <strong>my-first-website</strong>
+      <div>
+        <button
+          type="button"
+          style="margin-right: 10px; padding: 8px 14px; border: none; border-radius: 6px; cursor: pointer;"
+        >
+          Bio
+        </button>
+        <button
+          type="button"
+          style="padding: 8px 14px; border: none; border-radius: 6px; cursor: pointer;"
+        >
+          Contact
+        </button>
+      </div>
+    </header>
+
+    <main style="text-align: center; padding: 80px 20px;">
+      <h1>Welcome to Kyle's First Website 🚀</h1>
+      <p style="font-size: 20px; color: #2563eb;">Now with a sticky header and CTA buttons.</p>
+    </main>
+  </body>
 </html>
 ```
