@@ -1,0 +1,78 @@
+```html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | My First Website</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f0f7ff;
+        color: #1f2937;
+      }
+
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #0b2a6f;
+        color: white;
+        padding: 14px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .cta {
+        padding: 8px 14px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        background: white;
+        color: #0b2a6f;
+        font-weight: 600;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      .cta + .cta {
+        margin-left: 10px;
+      }
+
+      .cta:hover {
+        background: #dbeafe;
+        color: #082255;
+      }
+
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 60px 20px;
+      }
+
+      p {
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <strong>my-first-website</strong>
+      <div>
+        <a class="cta" href="/bio">Bio</a>
+        <a class="cta" href="/contact">Contact</a>
+      </div>
+    </header>
+
+    <main>
+      <h1>Contact</h1>
+      <p>
+        This is placeholder contact text. I’ll add my real email, social links,
+        and preferred way for people to reach me.
+      </p>
+    </main>
+  </body>
+</html>
+```
